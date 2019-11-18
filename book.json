@@ -2,7 +2,6 @@
     "title": "移动端列表视图简介",
     "description": "移动端结构拆解和模型化处理",
     "author": "王像",
-    "output.name": "mobilelistview",
     "language": "zh-hans",
     "gitbook": "3.2.2",
     "root": ".",
@@ -12,36 +11,30 @@
     "plugins": [
         "-lunr",
         "-search",
-        "-highlight",
-        "-livereload",
         "search-plus@^0.0.11",
-        "simple-page-toc@^0.1.1",
-        "prism@^2.1.0",
-        "prism-themes@^0.0.2",
-        "include-codeblock@^3.0.2",
-        "emphasize@^1.1.0",
-        "katex@^1.1.3",
-        "tbfed-pagefooter@^0.0.1",
-        "expandable-chapters-small@^0.1.7",
-        "sectionx@^3.1.0",
-        "local-video@^1.0.1",
-        "anchor-navigation-ex@0.1.8",
-        "favicon@^0.0.2",
-        "todo@^0.1.3"
+        "anchor-navigation-ex"
     ],
     "pluginsConfig": {
-        "theme-default": {
-            "showLevel": true
-        },
-        "simple-page-toc": {
-            "maxDepth": 3,
-            "skipFirstH1": true
-        },       
         "anchor-navigation-ex": {
-            "isRewritePageTitle": false,
-            "tocLevel1Icon": "fa fa-hand-o-right",
-            "tocLevel2Icon": "fa fa-hand-o-right",
-            "tocLevel3Icon": "fa fa-hand-o-right"
+            "showLevel": false,
+            "associatedWithSummary": true,
+            "printLog": false,
+            "multipleH1": true,
+            "mode": "float",
+            "showGoTop":true,
+            "float": {
+                "floatIcon": "fa fa-navicon",
+                "showLevelIcon": false,
+                "level1Icon": "fa fa-hand-o-right",
+                "level2Icon": "fa fa-hand-o-right",
+                "level3Icon": "fa fa-hand-o-right"
+            },
+            "pageTop": {
+                "showLevelIcon": false,
+                "level1Icon": "fa fa-hand-o-right",
+                "level2Icon": "fa fa-hand-o-right",
+                "level3Icon": "fa fa-hand-o-right"
+            }
         }
     }
 }
