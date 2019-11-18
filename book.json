@@ -16,7 +16,7 @@
     ],
     "pluginsConfig": {
         "anchor-navigation-ex": {
-            "showLevel": false,
+            "showLevel": true,
             "associatedWithSummary": true,
             "printLog": false,
             "multipleH1": true,
