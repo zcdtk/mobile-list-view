@@ -12,7 +12,8 @@
         "-lunr",
         "-search",
         "search-plus@^0.0.11",
-        "anchor-navigation-ex"
+        "anchor-navigation-ex",
+        "mermaid"
     ],
     "pluginsConfig": {
         "anchor-navigation-ex": {
