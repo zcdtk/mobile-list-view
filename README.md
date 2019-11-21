@@ -10,10 +10,8 @@
 
 基于应用功能的不同，视图一般由多个部分组成。常见的有标题、操作和数据，如下图所划分的区域所示：
 
-<img src="imgs/view-structure.jpg" alt="view-structure" style="zoom:25%;" />
-
-​																							图1
-
+<div align=center><img src="imgs/view-structure.jpg" alt="view-structure" style="zoom:25%;" /></div>
+<center>图 1 </center>
 在图 1 中，区域 1 属于视图标题，区域 2 属于视图操作区域，区域 3 是多数据视图数据过滤区，区域 4 属于多数据区域。
 
 功能区域的划分，从视图结构组成来说，是为了复用某些公共内容，避免重复添加相似的内容到同一个应用的视图之中，需求发生变更后，不断重复的修改内容。同时，功能区域也是业务设计能力的表现，恰当的业务设计，会避免很多功能内容重复开发。
@@ -52,32 +50,24 @@ iBiz 前端模型中，将公共的业务数据对象封装成部件，提供模
 
 图 1 的区域 3，即为快速搜索的示例，搜索效果如下图：
 
-<img src="imgs/quick-search.jpg" alt="quick-search" style="zoom:25%;" />
-
-​                              图 2
-
+<div align=center><img src="imgs/quick-search.jpg" alt="quick-search" style="zoom:25%;" /></div>
+<center>图 2 </center>
 在图 2 所示中，数据包含关键字`文件`的数据，都将作为满足的条件的数据返回。
 
 #### 条件搜索
 
 条件搜索，是用户选择搜索条件过滤多项数据，返回满足条件的数据。
 
-<img src="imgs/custom-search1.jpg" alt="custom-search1" style="zoom:25%;" />
-
-图 3
-
+<div align=center><img src="imgs/custom-search1.jpg" alt="custom-search1" style="zoom:25%;" /></div>
+<center>图 3 </center>
 图 3 是一个抄送消息的多数据视图，区域 1 是快速搜索，区域 2 是条件搜索，展开搜索条件如下：
 
-<img src="imgs/quick-search2.jpg" alt="quick-search2" style="zoom:25%;" />
-
-图 4 
-
+<div align=center><img src="imgs/quick-search2.jpg" alt="quick-search2" style="zoom:25%;" /></div>
+<center>图 4 </center>
 图 4 搜索条件有两个，分别是状态和类型，用户可以选择需要搜索条件，点击确定后，使用该条件加载在数据，条件如下：
 
-<img src="imgs/quick-search3.jpg" alt="quick-search3" style="zoom:25%;" />
-
-图 5 
-
+<div align=center><img src="imgs/quick-search3.jpg" alt="quick-search3" style="zoom:25%;" /></div>
+<center>图 5 </center>
 在图 5 中，用户选择了状态为审批完成、类型为请假作为搜索条件。
 
 图 3、图 4 和图 5 一起展示了在多项数据中条件搜索的方式，其中，图 4 内容，其业务模型化，在 iBiz 中被称之为搜索表单，它与工具栏都是业务模型部件之一，详情见搜索表单章节。
