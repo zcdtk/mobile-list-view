@@ -125,5 +125,4 @@ iBiz 前端模型中，将公共的业务数据对象封装成部件，提供模
 
 <div align=center><img src="imgs/control-action.jpg" alt="control-action" style="zoom:25%;" /></div>
 <center>图 9 </center> 
-
 在图 9 中，多数据部件行数据绑定了右滑绑定了两个行为，分别是数据置顶和数据删除。
