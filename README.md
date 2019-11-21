@@ -98,3 +98,28 @@ iBiz 前端模型中，将公共的业务数据对象封装成部件，提供模
 
 视图无关行为，即该操作行为的入口在视图内，但不对视图的数据、布局等发生关联。视图相关行为，则会对视图有关联操作。
 
+视图相关的后续行为，iBiz  称之为界面行为附加操作，该功能是功能逻辑中最常用的部分。
+
+### 视图无关行为
+
+在图 1 中，区域 2 内属于行为，该区域触发的界面展示如下所示：
+
+<div align=center><img src="imgs/no-re-action1.jpg" alt="no-re-action1" style="zoom:25%;" /></div>
+<center>图 6 </center> 
+触发行为区域内的 `密` 字图标，即打开图 6 所示内容。
+
+<div align=center><img src="imgs/no-re-action2.jpg" alt="no-re-action2" style="zoom:25%;" /></div>
+<center>图 7 </center> 
+触发行为区域内的电话图标，即打开图 7 所示内容。
+
+<div align=center><img src="imgs/no-re-action3.jpg" alt="no-re-action3" style="zoom:25%;" /></div>
+<center>图 8 </center> 
+触发行为区域内的加号图标，即打开图 8 所示内容。
+
+图 6、图 7 和图 8 三个示例中，每一个的行为操作都有对应的界面展开，就多数据视图而言，他们只是作为其他界面操作的入口，本身不对多数据视图产生影响。
+
+该行为触发对应的功能逻辑展现不同界面后，视图本身不在关注该行为触发后本身的结果。
+
+
+### 视图相关行为
+
